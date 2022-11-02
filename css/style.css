@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.webapp{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: #d5e1ef;
+}
+.carta{
+    width: 300px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    border-radius: 20px;
+}
+.qrcode{
+    width: 100%;
+}
+.qrcode img{
+    border-radius: 10px;
+}
